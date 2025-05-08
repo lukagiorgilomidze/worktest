@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.logo{
+    width: 128px;
+    height: 83px;
+}
+
+nav{
+    display: flex;
+    gap: 100px;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+a{font-size: 25px;
+text-decoration: none;
+color: black;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+.conterbox{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.baner{
+    width: 1442px;
+    height: 495px;
+}
+
+/* საურათო ყუთი */
+
+.boximgs{
+    margin-top: 70px;
+}
+
+.downbox{display: flex;
+gap: 100px;
+margin-top: 90px;
+}
+
+.funimgs{
+width: 326px;
+height: 326px;
+border-radius: 22px;
+}
+/* მოკლე საინფორმაციო ყუთი */
+
+.infobox{background-color: #BBDEFB;
+width: 1442px;
+height: 1766px;
+margin-top: 80px;
+padding: 20px;
+}
+
+h2{font-size: 64px;}
+
+
+.contetsbox{
+    display: flex;
+margin-top: 110px;
+gap: 100px;
+}
+
+.conertboximg{
+width: 518px;
+height: 424px;
+border: 5px solid;
+border-radius: 27px;
+}
+.textbox{
+margin-top: 70px;
+}
+p{font-size: 25px;
+padding: 20px;
+}
+
+.textt2{font-weight: 700;}
+
+.shorttex{margin-top: 201px;
+font-size: 64px;
+}
+/* აიქონების ყუთი */
+
+.iconbox{
+margin-top: 155px;
+display: flex;
+flex-direction: column;
+gap:100px;
+}
+
+.icons{display: flex;
+gap: 103px;
+}
+.iconimgs{
+    width: 400px;
+}
+
+/* ფუტერი */
+
+footer{background-color: #BBDEFB;
+width: 1442px;
+height: 386px;
+padding: 100px;
+display: flex;
+justify-content: center;
+gap: 100px;
+margin-top: 305px;
+margin-left: 200px;
+}
+
+.fotterbox{
+display: flex;
+flex-direction: column;
+gap: 30px;
+}
+
+.footertext{font-weight: 700px;
